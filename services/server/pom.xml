@@ -3,25 +3,34 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <artifactId>services</artifactId>
     <groupId>me.lumen.services</groupId>
+    <artifactId>services</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>server</artifactId>
+  <artifactId>services-server</artifactId>
   <packaging>war</packaging>
-  <name>servers Maven Webapp</name>
 
+  <name>services-server</name>
   <url>http://maven.apache.org</url>
+
   <dependencies>
+
+    <dependency>
+      <groupId>me.lumen.services</groupId>
+      <artifactId>services-api</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
     </dependency>
+
   </dependencies>
+
   <build>
-    <finalName>servers</finalName>
+    <finalName>server</finalName>
   </build>
+
 </project>

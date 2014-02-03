@@ -7,10 +7,10 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>common</artifactId>
+  <artifactId>tftp-common</artifactId>
   <packaging>jar</packaging>
 
-  <name>tftp/common</name>
+  <name>tftp-common</name>
   <url>http://maven.apache.org</url>
 
   <properties>
