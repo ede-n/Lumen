@@ -5,6 +5,7 @@
 * **master** -
 * **head** -
 * **fast forward** - You’ll notice the phrase “fast-forward” in some merge output log. Because the commit pointed to by the branch you merged in was directly upstream of the commit you’re on, Git simply moves the pointer forward. To phrase that another way, when you try to merge one commit with a commit that can be reached by following the first commit’s history, Git simplifies things by moving the pointer forward because there is no divergent work to merge together – this is called a “fast-forward.”(See [fig 3.13][1] and [fig 3.14][2]). `master` is fast-forwarded to `hot-fix`.
+* **remote-tracking branches** -
 
 ## Cheat Sheet
 * _Branching_
